@@ -1,4 +1,6 @@
 import React from 'react'
+import Card from './components/Card.jsx'
+import Navbar from './components/Navbar.jsx'
 
 const App = () => {
   return (
@@ -7,7 +9,10 @@ const App = () => {
       <h3 id = 'child_2'>
         Heyy
       </h3>
+      {Card()}
+      <Navbar/>
     </div> 
+    
   )
 }
 
